@@ -1,0 +1,14 @@
+name: ofe_demo
+channels:
+  -  conda-forge
+dependencies:
+  - python<3.12
+  - openfe==1.0.0
+  - nglview==3.0.3
+  - notebook<7
+  - jupyter_contrib_nbextensions
+  - importlib-metadata
+  # For prsentations
+  - rise
+  # testing
+  - ipywidgets==7.6.0
